@@ -1,0 +1,29 @@
+html{
+    font-size: 20px;
+}
+
+p{
+    color: brown;
+}
+
+body{
+    background-color: rgb(1, 14, 19);
+   color: rgb(221, 132, 202);
+font-size: 30px;
+}
+
+p:last-of-type{
+    font-size: 2em;
+}
+
+p:first-of-type{
+color: crimson;
+}
+
+p {
+    color: chartreuse;
+}
+
+p:nth-of-type(even){
+    color: rgb(109, 47, 255);
+}

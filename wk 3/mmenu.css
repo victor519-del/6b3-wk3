@@ -1,0 +1,29 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(even){
+    background-color: blue;
+    padding:.5em;
+}
+
+
+tr:nth-of-type(odd){
+    background-color: green;
+    padding: 0.5em;;
+}
+
+tr{
+    font-size: 20px;
+}
+
+tbody td{
+    background-color: blue;
+}
+
+tbody th{
+    background-color: lime;
+    padding: .5em;
+
+}
